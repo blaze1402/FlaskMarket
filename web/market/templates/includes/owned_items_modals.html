@@ -1,0 +1,24 @@
+<!-- Sell Item Button  -->
+<div class="modal" id="Modal-SellingConfirm-{{owned_item.id}}" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+          <h5 class="modal-title">{{owned_item.name}}</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <form method="POST">
+            {{ selling_form.hidden_tag() }}
+            <h4>Are you sure you want to sell {{owned_item.name}} for ₹{{owned_item.price}} ?</h4>
+            <br>
+            <h6>By clicking here, you will sell this item to the market.</h6>
+            <input id="sold_item" name="sold_item" type="hidden" value="{{owned_item.name}}">
+            {{ selling_form.submit(class="btn btn-outline-danger text-center") }}
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>

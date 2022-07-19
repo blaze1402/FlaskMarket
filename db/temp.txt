@@ -1,0 +1,6 @@
+item1=Item(name="Realme XT", price=17000, barcode="645481538493", description="This is a Realme XT phone.")
+item2=Item(name="HP Notebook 15", price=34000, barcode="648681231564", description="This is a HP Laptop.")
+item3=Item(name="MuscleBlaze Sipper", price=300, barcode="864231654631", description="This is a MuscleBlaze sipper.")
+item4=Item(name="Realme Buds Air 2", price=2500, barcode="584654651531", description="This is a Realme Buds Air 2")
+item5=Item(name="Titanium Thumb Ring", price=200, barcode="645132154665", description="This is a thumb ring.")
+item6=Item(name="Mary Oliver:Devotions", price=500, barcode="365646465172", description="This is a poetry book.")
